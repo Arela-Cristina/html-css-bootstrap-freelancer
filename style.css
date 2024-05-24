@@ -1,0 +1,46 @@
+/*DEBUG*/
+[class*="col-"] {
+    min-height: 40px;
+    background-color: pink;
+    border: solid 1px rgba(255, 0, 191, 0.836);
+}
+
+.px {
+    padding: 10px 10px;
+
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.between {
+    align-content: space-between;
+}
+
+.between-x {
+    justify-content: space-between;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+.min-h80 {
+    min-height: 80px;
+}
+
+.mx-b {
+    margin-bottom: 30px;
+}
+
+.box {
+    border-style: none;
+    background-color: white;
+}
+
+/*BG-COLOR*/
+
+.bg-white {
+    background-color: white;
+}
