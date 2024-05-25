@@ -14,29 +14,31 @@
 <body>
     <header class="container-fluid">
         <div class="row">
-            <div class="col-6 d-flex  align-items-center text-white fw-bold cri-bg-gray">START BOOTSTRAP</div>
+            <div class="col-6 d-flex  ps-4 align-items-center text-white fw-bold cri-bg-gray">START BOOTSTRAP</div>
             <!-- sm menu -->
             <div
-                class="col-6 d-block d-md-none d-lg-none d-flex align-items-center justify-content-end text-white fw-bold cri-bg-gray">
-                <a href="#"><i class="fa-solid fa-bars"></i></a>
+                class="col-6 d-block pe-4 d-md-none d-lg-none d-flex align-items-center justify-content-end text-white fw-bold cri-bg-gray">
+                <a class="text-white" href="#"><i class="fa-solid fa-bars"></i></a>
             </div>
 
             <!-- md lg menu -->
             <div
-                class="col-md-6 d-flex align-items-center justify-content-end d-none d-sm-none d-md-flex d-lg-flex gap-3  cri-bg-gray">
+                class="col-md-6 pe-4 d-flex align-items-center justify-content-end d-none d-sm-none d-md-flex d-lg-flex gap-3  cri-bg-gray">
                 <a class="text-decoration-none text-white fw-bold cri-fs-11" href="#">PORTFOLIO</a>
                 <a class="text-decoration-none text-white fw-bold cri-fs-11" href="#">ABOUT</a>
                 <a class="text-decoration-none text-white fw-bold cri-fs-11" href="#">CONTACT</a>
             </div>
         </div>
-        <div class="row justify-content-center text-center cri-bg-green py-4">
-            <div class="col col-md-5 col-lg-5 cri-bg-green">
+        <div class="row justify-content-center flex-column text-center cri-bg-green py-4">
+            <div class="col col-md-5 col-lg-5 mx-auto cri-bg-green">
                 <img class="img-fluid w-50 pb-3" src="img/avatar.svg" alt="avatar picture">
             </div>
-            <div class="row justify-content-center text-center cri-bg-green">
-                <div class="cri-fs-45 text-white fw-bold display-6">START BOOTSTRAP</div>
-                <i class="fa-solid fa-star"></i>
-                <div class="fs-6">GRAPHIC ARTIST - WEB DESIGNER -ILUSTRATOR</div>
+            <div class="col text-white justify-content-center text-center cri-bg-green">
+                <div class="cri-fs-45 fw-bold display-6">START BOOTSTRAP</div>
+                <div class="py-3">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="cri-fs-22">GRAPHIC ARTIST - WEB DESIGNER -ILUSTRATOR</div>
             </div>
         </div>
     </header>
@@ -50,33 +52,33 @@
                 </div>
                 <div class="row justify-content-center gap-3">
                     <div class="col-11 col-md-5 col-lg-3">
-                        <img class="w-100" src="img/cabin.png" alt="home">
+                        <img class="w-100 rounded-3" src="img/cabin.png" alt="home">
                     </div>
                     <div class="col-11 col-md-5 col-lg-3">
-                        <img class="w-100" src="img/cake.png" alt="cake dessert">
+                        <img class="w-100 rounded-3" src="img/cake.png" alt="cake dessert">
                     </div>
                     <div class="col-11 col-md-5 col-lg-3">
-                        <img class="w-100" src="img/circus.png" alt="circus">
+                        <img class="w-100 rounded-3" src="img/circus.png" alt="circus">
                     </div>
                     <div class="col-11 col-md-5 col-lg-3">
-                        <img class="w-100" src="img/game.png" alt="joystick">
+                        <img class="w-100 rounded-3" src="img/game.png" alt="joystick">
                     </div>
                     <div class="col-11 col-md-5 col-lg-3">
-                        <img class="w-100" src="img/safe.png" alt="cassa forte">
+                        <img class="w-100 rounded-3" src="img/safe.png" alt="cassa forte">
                     </div>
                     <div class="col-11 col-md-5 col-lg-3">
-                        <img class="w-100" src="img/submarine.png" alt="submarine">
+                        <img class="w-100 rounded-3" src="img/submarine.png" alt="submarine">
                     </div>
                 </div>
             </div>
         </section>
         <section>
             <div class="container-fluid text-center">
-                <div class="row justify-content-center cri-bg-green py-4">
+                <div class="row text-white justify-content-center cri-bg-green py-4">
 
                     <h1 class="fs-3">ABOUT</h1>
                     <i class="fa-solid fa-star"></i>
-                    <div class="container-fluid text-center pt-4">
+                    <div class="container-fluid text-center py-4">
                         <div class="row justify-content-center gap-3">
                             <div class="col-8 col-md-5 cri-bg-green">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptatibus
@@ -97,8 +99,8 @@
                             </div>
                         </div>
                     </div>
-                    <button type="button" class="btn btn-outline-dark btn-sm w-25"><i
-                            class="fa-solid fa-download"></i>Download</button>
+                    <button type="button" class="btn border-white text-white btn-sm w-25"><i
+                            class="fa-solid fa-download cri-p-r"></i>Download</button>
 
                 </div>
             </div>
@@ -122,11 +124,13 @@
                         <input class="w-100 border-top-0 border-end-0 border-start-0" type="text"
                             placeholder="Phone Number" aria-label="Phone Number">
                     </div>
-                    <div class="col-8">
+                    <div class="col-8 text-start">
                         <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                         <textarea class="form-control border-top-0 border-end-0 border-start-0"
                             id="exampleFormControlTextarea1" rows="6"></textarea>
-                        <button type="button" class="btn btn-success">Send</button>
+                        <div class="pt-3">
+                            <button type="button" class="btn btn-success">Send</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -136,20 +140,26 @@
         <div class="container-fluid text-center cri-bg-blue">
             <div class="row justify-content-center gap-3 py-4">
 
-                <div class="col-7 col-md-3 text-center cri-bg-blue">
+                <div class="col-7 fs-6 text-white col-md-3 text-center cri-bg-blue">
                     <div>LOCATION</div>
                     <div>2215 John Daniel Drive Clark, MO 54243</div>
                 </div>
 
-                <div class="col-7 col-md-3 text-center cri-bg-blue">
+                <div class="col-7 fs-6 text-white col-md-3 text-center cri-bg-blue">
                     <div>AROUND THE WEB</div>
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-google-plus-g"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
+                    <div class="d-flex justify-content-center gap-3 pt-1">
+                        <a href="#" class="text-decoration-none text-white"><i
+                                class="fa-brands fa-facebook-f fa-border cri-circle cri-p-f"></i></a>
+                        <a href="#" class="text-decoration-none text-white"><i
+                                class="fa-brands fa-google-plus-g fa-border cri-circle cri-p-g"></i></a>
+                        <a href="#" class="text-decoration-none text-white"><i
+                                class=" fa-brands fa-twitter fa-border cri-circle cri-p-t"></i></a>
+                        <a href="#" class="text-decoration-none text-white"><i
+                                class=" fa-brands fa-linkedin-in fa-border cri-circle cri-p-i"></i></a>
+                    </div>
                 </div>
 
-                <div class="col-7 col-md-3 text-center cri-bg-blue">
+                <div class="col-7 fs-6 text-white col-md-3 text-center cri-bg-blue">
                     <div>ABOUT FREELANCER</div>
                     <div>Freelance is a free to use, open source Bootstrap theme created by <span>Star Bootstrap</span>
                     </div>
@@ -157,7 +167,7 @@
             </div>
         </div>
         <div class="container-fluid text-center cri-bg-gray">
-            <div class="row py-1">
+            <div class="row fs-6 text-white py-1">
                 <span>Copyright © Your Website 2024</span>
             </div>
         </div>
