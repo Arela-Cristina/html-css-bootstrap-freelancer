@@ -18,6 +18,10 @@
     background-color: #3a546d;
 }
 
+.cri-bg-white {
+    background-color: white;
+}
+
 /*FONT-SIZE*/
 
 .cri-fs-11 {
@@ -28,7 +32,7 @@
     font-size: 45px;
 }
 
-/*BORDER-RAIUS*/
+/*BORDER-RAIUS - FONT AWESOME*/
 .cri-circle {
     border-radius: 50%;
 }
@@ -51,4 +55,26 @@
 
 .cri-p-r {
     padding-right: 10px;
+}
+
+/* WHITE-LINE */
+
+.line-l {
+    height: 3px;
+    width: 15%;
+    border-radius: 50px;
+}
+
+.line-r {
+    height: 3px;
+    width: 15%;
+    border-radius: 50px;
+}
+
+.line-l::before {
+    content: "";
+}
+
+.line-r::after {
+    content: "";
 }
