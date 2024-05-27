@@ -123,7 +123,7 @@
                         <div class="line-r cri-bg-white"></div>
                     </div>
                     <div class="container-fluid text-center py-4">
-                        <div class="row justify-content-center gap-3">
+                        <div class="row justify-content-center gap-3 text-start">
                             <div class="col-8 col-md-5 cri-bg-green">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, voluptatibus
                                     obcaecati
@@ -143,7 +143,7 @@
                             </div>
                         </div>
                     </div>
-                    <button type="button" class="btn border-white white btn-sm w-25"><i
+                    <button type="button" class="btn border-white white btn-sm cri-w-20"><i
                             class="fa-solid fa-download cri-p-r"></i>Download</button>
 
                 </div>
@@ -158,28 +158,30 @@
                         <div class="line-r cri-bg-gray"></div>
                     </div>
                 </div>
-                <div class="row justify-content-center gap-3">
-                    <div class="col-8">
-                        <input class="w-100 border-top-0 border-end-0 border-start-0" type="text" placeholder="Name"
-                            aria-label="Name">
-                    </div>
-                    <div class="col-8">
-                        <input class="w-100 border-top-0 border-end-0 border-start-0" type="text"
-                            placeholder="Email Adress" aria-label="Email Adress">
-                    </div>
-                    <div class="col-8">
-                        <input class="w-100 border-top-0 border-end-0 border-start-0" type="text"
-                            placeholder="Phone Number" aria-label="Phone Number">
-                    </div>
-                    <div class="col-8 text-start">
-                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                        <textarea class="form-control border-top-0 border-end-0 border-start-0"
-                            id="exampleFormControlTextarea1" rows="6"></textarea>
-                        <div class="pt-3">
-                            <button type="button" class="btn btn-success">Send</button>
+                <form action="">
+                    <div class="row justify-content-center gap-3">
+                        <div class="col-8">
+                            <input class="w-100 border-top-0 border-end-0 border-start-0" type="text" placeholder="Name"
+                                aria-label="Name" id="name">
+                        </div>
+                        <div class="col-8">
+                            <input class="w-100 border-top-0 border-end-0 border-start-0" type="text"
+                                placeholder="Email Adress" aria-label="Email Adress" id="email">
+                        </div>
+                        <div class="col-8">
+                            <input class="w-100 border-top-0 border-end-0 border-start-0" type="text"
+                                placeholder="Phone Number" aria-label="Phone Number" id="Phone">
+                        </div>
+                        <div class="col-8 text-start">
+                            <label for="Message" class="form-label">Message</label>
+                            <textarea class="form-control border-top-0 border-end-0 border-start-0" id="Message"
+                                rows="6"></textarea>
+                            <div class="pt-3">
+                                <button type="button" class="btn btn-success">Send</button>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </main>
@@ -215,7 +217,7 @@
         </div>
         <div class="container-fluid text-center cri-bg-gray">
             <div class="row fs-6 white py-1">
-                <span>Copyright © Your Website 2024</span>
+                <span class="py-4">Copyright © Your Website 2024</span>
             </div>
         </div>
     </footer>
