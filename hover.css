@@ -1,3 +1,8 @@
 .col-md-6 a:hover {
     color: rgb(217, 255, 0);
 }
+
+
+.cri-hover:hover .hover-plus {
+    transform: scale(1);
+}

@@ -83,3 +83,19 @@
 .line-r::after {
     content: "";
 }
+
+/*HOVER STYLE*/
+
+.cri-hover {
+    position: relative;
+}
+
+.hover-plus {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(231, 231, 231, 0.5);
+    transform: scale(0);
+    transition: ease;
+    height: 100%;
+}
