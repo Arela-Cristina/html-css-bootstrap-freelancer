@@ -32,6 +32,11 @@
     font-size: 45px;
 }
 
+/*COLOR SIZE*/
+.white {
+    color: white;
+}
+
 /*BORDER-RAIUS - FONT AWESOME*/
 .cri-circle {
     border-radius: 50%;
